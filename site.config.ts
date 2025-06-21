@@ -1,25 +1,17 @@
-import { siteConfig } from './lib/site-config'
-
-export default siteConfig({
-  // the site's root Notion page (required)
-  rootNotionPageId: '2180c79a120d80fa9c9bdb2146e48295',
-
-  // if you want to restrict pages to a single notion workspace (optional)
-  // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'Mewstream｜AI 貓新聞台',
+  domain: 'ai.news.meow828.com',
+  author: '貓編 Mewditor',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: '由 AI 貓編輯每日挑選的未來科技與 AI 熱點新聞，融合喵式觀點與人類視角，每日一報，資訊＋可愛雙重吸收！',
 
   // social usernames (optional)
-  twitter: 't',
-  github: 't',
-  linkedin: 't',
+  twitter: 'meow828',
+  github: 'meow828',
+  linkedin: 'meow828',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
